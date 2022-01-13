@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unsupport_title">无法显示该内容</string>
+    <string name="unsupport_desc">客户端版本不支持该内容</string>
+    <string name="revoke_failed">发送时间超过2分钟的消息，不能被撤回</string>
+    <string name="pic_and_video">图片和视频</string>
+    <string name="black_list_send_tip">消息已发送，但对方拒收</string>
+    <string name="readed">已读</string>
+</resources>

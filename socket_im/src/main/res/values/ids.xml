@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="message_activity_background" type="id"/>
+    <item name="messageListView" type="id"/>
+</resources>

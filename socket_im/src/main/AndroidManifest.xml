@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wind.im" >
+
+
+    <application>
+
+
+
+        <!--  android:process=":w_socket"-->
+        <service android:name=".service.WebSocketClientService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":w_socket"
+
+            />
+        <receiver android:name=".receiver.MessageReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="action_on_message"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_on_open"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

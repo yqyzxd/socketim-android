@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- avatar -->
+    <dimen name="avatar_notification_size">48dip</dimen>
+    <dimen name="avatar_max_size">60dip</dimen>
+    <dimen name="avatar_size_default">50dip</dimen>
+    <dimen name="avatar_size_in_session">40dip</dimen>
+    <dimen name="avatar_size_in_contact">30dip</dimen>
+    <dimen name="avatar_size_in_profile">60dip</dimen>
+    <dimen name="avatar_size_robot">40dip</dimen>
+    <dimen name="max_text_bubble_width">260dip</dimen>
+    <dimen name="bubble_time_layout_margin_top">18dip</dimen>
+    <dimen name="bubble_time_layout_margin_bottom">8dip</dimen>
+    <dimen name="bubble_head_margin_horizontal">12dip</dimen>
+</resources>

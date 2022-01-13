@@ -1,0 +1,9 @@
+syntax = "proto3";
+option java_package = "com.wind.im.proto";
+option java_outer_classname = "SocketLoginProto";
+//登录
+message SocketLogin {
+    string Token = 1; //用户token
+    string Os = 2; //用户系统，ios、Android
+    string Network = 3; //网络类型 wifi、3g、4g、5g等
+}
