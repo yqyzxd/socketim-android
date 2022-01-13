@@ -70,8 +70,8 @@ dependencies {
     implementation 'jp.wasabeef:glide-transformations:2.0.1'
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
-    provided 'com.alibaba:arouter-api:1.5.1'
-    provided 'com.squareup.okhttp3:okhttp:3.6.0'
+    compileOnly 'com.alibaba:arouter-api:1.5.1'
+    compileOnly 'com.squareup.okhttp3:okhttp:3.6.0'
     implementation 'com.github.yqyzxd:mlog-android:1.0.0'
     //implementation project(path:":base")
     implementation 'com.google.protobuf:protobuf-java:3.11.0'
