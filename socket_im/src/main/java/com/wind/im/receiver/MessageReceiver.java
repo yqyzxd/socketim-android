@@ -14,6 +14,9 @@ public class MessageReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
 
         String action=intent.getAction();
+        if (action==null){
+            return;
+        }
         switch (action){
             case ACTION_ON_MESSAGE:
                 //ResponseParser.parseResponse(intent.getByteArrayExtra(EXTRA_KEY_MESSAGE));
